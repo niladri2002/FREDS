@@ -32,6 +32,11 @@ Welcome to the FREDS (Freedom, Rights, Expression, Democracy, and Security) proj
      npm i --force
      ```
    - This step is crucial to ensure the frontend of FREDS runs smoothly.
+   - Start the frontend by using this command :
+   ```
+     npm start
+     ```
+   - The frontend will run on localhost:3000.
 
 5. **Setting Up the Backend**:
    - Go to the 'imageurl' folder within the repository.
