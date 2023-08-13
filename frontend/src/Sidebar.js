@@ -169,7 +169,7 @@ const Post= async ()=>
   }
   else{
     
-    createPost()
+    createPost() // data saving in blockchain 
 }
 
   } catch (error) {

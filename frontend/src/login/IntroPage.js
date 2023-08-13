@@ -135,8 +135,9 @@ const RegisterUser=async()=>{
       <Navbar />
 
       <section className="background firstSection">
-        <div className="userName" style={{textAlign:"center"}}>
-          <h1 className="animated-text" style={{color:"white"}}>
+        <div className="userName" style={{    textAlign: "center",
+    fontSize: "28px"}}>
+          <h1 className="animated-text" style={{color: "white"}}>
             <span>W</span>
             <span>e</span>
             <span>l</span>
@@ -172,7 +173,7 @@ const RegisterUser=async()=>{
                   Watch Video
                 </button>
                 <button className="btn btn-dark" onClick={handleOpenModal}>
-                  Sing up
+                  Sign up
                 </button>
                 <button className="btn btn-dark" onClick={askLogin}>
                   Sign in with Metamask
@@ -246,9 +247,9 @@ const RegisterUser=async()=>{
                       />
                     </div>
                   )}
-                </div>
+                </div>    
                 <button type='submit' className='uploadButton'>
-                  Sing up
+                  Sign up
                 </button>
               </form>
             </div>
