@@ -27,9 +27,6 @@ function Widgets({ allPosts }) {
     avatar: "https://media.wired.com/photos/598e35994ab8482c0d6946e0/master/w_1920,c_limit/phonepicutres-TA.jpg",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
   }
-<<<<<<< HEAD
-  let username = "Tamal", heading = "this is a heading", message = "hellow";
-=======
   let showWidget = false;
   const [seletedPost, setseletedPost] = useState({
     name: "",
@@ -48,7 +45,6 @@ function Widgets({ allPosts }) {
   }
 // widgetPost(1);  
 let avatar= "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png";
->>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
 
   return (
     <div className='feed' id="widget">
@@ -57,7 +53,6 @@ let avatar= "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_cre
       </div>
 
       <div id="widgetTop">
-<<<<<<< HEAD
         <h2> Hot List</h2>
 
 
@@ -85,35 +80,6 @@ let avatar= "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_cre
 
         ))};
 </div>
-=======
-        <h2> Most liked posts</h2>
-
-
-        {/* // add post heading here  */}
-        <div id="eachPost" >
-          {allPosts.map((eachPost, index) => (
-            // Posts 
-            < div className="post" onClick={() => { widgetPost(index) }}>
-              <div className="post__avatar">
-                <Avatar src={avatar} />
-              </div>
-              <div className='post__header'>
-                <div className='post__headerText'>
-                  <h2>
-                    {eachPost.name}{" "} <span> </span>
-                  </h2>
-                </div>
-                <div className='post__headerText'>
-                  <h3>
-                    {eachPost.heading}{" "} <span> </span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-          ))};
-        </div>
->>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
 
 
 
@@ -121,17 +87,6 @@ let avatar= "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_cre
 
 
       </div>
-<<<<<<< HEAD
-      <div id="widgetBottom" className="widgetBottom">
-        <h2> widgetBottom</h2>
-
-      </div>
-    </div>
-  )
-}
-
-
-=======
 
       <div id="widgetBottom" className="widgetBottom">
         <h2> Preview</h2>
@@ -176,5 +131,4 @@ let avatar= "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_cre
 
 
 
->>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
 export default Widgets
