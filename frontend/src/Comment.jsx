@@ -54,24 +54,22 @@ function Comment({active, handleComment, allComments, index,Icon }) {
                 onChange={(e) => setNewComment(e.target.value)}
                 placeholder="Write your comment..."
               ></textarea>
-              <button
-                className="add_comments"
-                onClick={() => handleComment(index, newComment)}
-              >
-                Add Comment
-              </button>
+              <button className='add_comments' onClick={() => handleComment(index, newComment)}>Add Comment</button>
               {/* // showing prevComments */}
-              <div className="show_comments heading">Comments</div>
-              <div className="show_comments">
+              <div className='show_comments heading'>Comments</div>
+              <div className="show_comments" >
                 {allComments.map((comment, cIndex) => (
-                  <p key={cIndex}>{comment}</p>
+                  <p key={cIndex} >{comment}</p>
+
                 ))}
               </div>
             </div>
+
           </div>
         )}
       </header>
     </div>
+
   );
 }
 

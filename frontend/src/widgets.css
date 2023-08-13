@@ -47,6 +47,7 @@
   /* background-color: rgba(44, 29, 71, 0.99);   */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   height: 55vh !important;
 =======
   height: 35vh !important;
@@ -54,16 +55,23 @@
 =======
   height: 35vh !important;
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
+=======
+  height: 55vh !important;
+>>>>>>> e67d3280359f58a452c8f161c5d9470808123b49
   margin: 2rem;
   border-radius: 2rem;
   overflow: scroll  ;
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e67d3280359f58a452c8f161c5d9470808123b49
 #widgetTop::-webkit-scrollbar {
   display: none;
 }
 #widgetTop>h2{
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
@@ -75,6 +83,8 @@
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
 =======
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
+=======
+>>>>>>> e67d3280359f58a452c8f161c5d9470808123b49
   background-color:rgba(117, 60, 216, 0.132) ;  
   color:rgb(226, 226, 226)  ;
   text-align: center;
@@ -84,6 +94,9 @@
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e67d3280359f58a452c8f161c5d9470808123b49
   border: 2px solid green;  
   height: 20vh;
   /* background-color: aquamarine; */
@@ -91,6 +104,7 @@
 }
 #widget{
   height: 100vh;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
@@ -135,4 +149,6 @@
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
 =======
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
+=======
+>>>>>>> e67d3280359f58a452c8f161c5d9470808123b49
 }

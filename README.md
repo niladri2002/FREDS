@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e67d3280359f58a452c8f161c5d9470808123b49
 # FREDS: Freedom of Expression in a Decentralized Society
 
 ![freds](https://github.com/niladri2002/FREDS/assets/96686814/0f3f2dd8-2802-4a9b-8d88-9279aa1c58e1)
@@ -56,6 +59,7 @@ Welcome to the FREDS (Freedom, Rights, Expression, Democracy, and Security) proj
 For a step-by-step guide on setting up the FREDS development environment, refer to the tutorial linked here: [FREDS Development Setup Tutorial](https://your-tutorial-link-here).
 
 Now you're ready to contribute to FREDS and be a part of the future of secure, anonymous, and open online communication.
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -68,3 +72,5 @@ Now you're ready to contribute to FREDS and be a part of the future of secure, a
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
 =======
 >>>>>>> 521b4c932d9396bd98256af422a057fd85f9c828
+=======
+>>>>>>> e67d3280359f58a452c8f161c5d9470808123b49
