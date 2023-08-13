@@ -135,8 +135,8 @@ const RegisterUser=async()=>{
       <Navbar />
 
       <section className="background firstSection">
-        <div className="userName">
-          <h1 className="animated-text">
+        <div className="userName" style={{textAlign:"center"}}>
+          <h1 className="animated-text" style={{color:"white"}}>
             <span>W</span>
             <span>e</span>
             <span>l</span>
