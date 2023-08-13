@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Ubuntu&display=swap');
+.Post {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-top: 1px solid rgba(117,60,216,.33);
+  border-bottom:  1px solid rgba(117,60,216,.33);
+}
+.post__avatar {
+  padding: .7rem .1rem .75rem 1.1rem;
+}
+
+.post__body {
+  flex: 1;
+  padding: 10px 0;
+}
+
+.post__body>img {
+  border-radius: 20px;
+}
+.post__header{
+  display: flexbox;
+  /* flex-wrap: nowrap; */
+  padding: .1rem .8rem;
+}
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  margin: 0;
+  padding: 0;
+}
+
+.post__headerDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* Build a Imagebox */
+
+.post__header>.postImages{
+  display: flex;
+  flex-wrap: wrap;
+  max-width:30vw ;
+  max-height: 80vh;
+  /* background-color: azure; */
+}
+
+.post__header>.postImages>img{
+  display: block;
+  border-radius: 1rem;
+  width: auto;
+  height: auto;
+  max-width:30vw ;
+  max-height: 60vh;
+  object-fit: contain;
+  object-position: left;
+}
+
+
+.post__header>.postImages>img:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.post__headerText>h3 {
+  font-size: 15px;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Ubuntu', sans-serif;
+  /* font-weight: 800; */
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+.post__headerText>h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  /* font-weight: 800; */
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+
+.post__badge {
+  font-size: 14px !important;
+  color: var(--twitter-color);
+}
+
+.post__headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.Vote {
+  color: white;
+  font: bold15px arial, sans-serif;
+  text-shadow: none;
+  padding: 1%;
+}
+
+.Up {
+  background-color: rgb(4, 110, 75);
+  /* color: black; */
+}
+
+.Down {
+  background-color: rgb(144, 67, 67);
+  /* color: black; */
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.AddVote {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 7px;
+  height: 22px;
+  /* line-height: 45px; */
+  border-radius: 7px;
+  /* background-color: #0070f3; */
+  font-weight: 400;
+  font-size: 15px;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.AddVote:hover {
+  color: white;
+  background: #52a0f9;
+  box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
+
+
+
+/* .post__header>.postImages{
+  display: flex;
+  max-width: 30vw;
+  max-height: 80vh;
+  width: 100%;
+  flex-wrap: inherit;
+  justify-content: left;
+  background: white;
+  overflow: hidden;
+  border-radius: .9rem;
+}
+
+.post__header>.postImages>img{
+  display: block;
+  max-width:25vw ; 
+  object-fit: contain;
+  object-position: left;
+  padding: 1px;
+  border-radius: 2rem;  
+} */
